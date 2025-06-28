@@ -70,25 +70,31 @@ These insights guided feature selection and model interpretation.
 
 ### 🔍 Feature Correlation with Heart Disease
 
-This heatmap highlights how various features relate to heart disease risk. Higher correlation values (positive or negative) reveal stronger relationships.
+This heatmap shows how clinical variables like age, cholesterol, and symptoms correlate with heart disease risk.
 
-![Correlation Heatmap](outputs/plots/correlation_heatmap.png)
+<p align="center">
+  <img src="outputs/plots/correlation_heatmap.png" alt="Correlation Heatmap" width="600"/>
+</p>
 
 ---
 
 ### 🫀 Chest Pain Type vs Disease Outcome
 
-The type of chest pain shows a strong pattern: patients with "asymptomatic" or "non-anginal" pain are more likely to have heart disease.
+Patients with **asymptomatic** or **non-anginal** chest pain show notably higher disease rates — a strong indicator for early screening.
 
-![Chest Pain Plot](outputs/plots/cp_vs_target.png)
+<p align="center">
+  <img src="outputs/plots/chest_pain_vs_target.png" alt="Chest Pain Plot" width="600"/>
+</p>
 
 ---
 
 ### 🧠 Feature Importance (Logistic Regression)
 
-The most interpretable model — Logistic Regression — shows how each factor contributes to predicting risk. Positive values increase risk; negative values are protective.
+Logistic Regression identifies which features increase or reduce heart disease risk. Positive values indicate higher risk.
 
-![Logistic Regression Coefficients](outputs/plots/logreg_coefficients.png)
+<p align="center">
+  <img src="outputs/plots/logreg_feature_importance.png" alt="Logistic Regression Coefficients" width="600"/>
+</p>
 
 ---
 
